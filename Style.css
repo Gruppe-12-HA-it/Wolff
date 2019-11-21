@@ -1,0 +1,125 @@
+/*adding fonts*/
+h1.logo {
+    font-family: Verdana;
+    font-size: 44px;
+    font-weight: lighter;
+}
+p {
+    font-family: Verdana, Geneva;
+    opacity: 90%;
+}
+/*Styling the navbar*/
+ul {
+    list-style-type: none;
+    display: block;
+    float: right;
+    padding-top: 78px;
+    padding-right: 272px;
+}
+li {
+    padding: 16px;
+    display: inline;
+}
+h1.logo {
+    float: left;
+    display: inline;
+    padding-left: 272px;
+    padding-top: 56px;
+}
+h5.logo {
+    float: left;
+    display: inline;
+    padding-left: 272px;
+    padding-top: 56px;
+}
+p.SubLogo {
+
+}
+.upperLogo {
+    text-align: left !important;
+}
+a {
+    color: #838383;
+    text-decoration: none;
+}
+a:hover {
+    color:black;
+}
+
+/*Styling the about-page*/
+p.AboutText {
+    font-size: 14px;
+    padding-left: 272px;
+    padding-right: 720px;
+
+}
+h3.About {
+    padding-top: 222px;
+    font-family: Verdana, Geneva, SansSerif;
+    font-weight: 500;
+    padding-left: 272px;
+    font-size: 20px;
+}
+
+/*Styling the home/Projects Page - name yet to be determined*/
+.Content {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.Thumbnail {
+    height: 360px;
+    width: 640px;
+}
+h3.IntroHeader {
+    padding-top: 222px;
+    font-family: Verdana, Geneva, SansSerif;
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: 148px;
+}
+.film-container:hover .Thumbnail {
+    opacity: 0.3;
+}
+.film-container:hover .Description {
+    opacity: 1;
+}
+.DescriptionText {
+    font-size: 22px;
+    text-align: justify;
+}
+.gallery__item {
+    position: relative;
+}
+.film-container {
+    margin: 5px;
+    margin-bottom: 200px;
+    width: 41%;
+    height: 200px;
+}
+.Description {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*Styling the contact page*/
+.Contact {
+    padding-top: 75px;
+    padding-left: 272px;
+    padding-right: 272px;
+    display: flex;
+    justify-content: left;
+}
+.ContactSpecific {
+    width: 30%;
+    margin: 5px;
+    max-width: 100%;
+    max-height: 100%;
+}
