@@ -1,66 +1,47 @@
 /*adding fonts*/
-h1.logo {
-    font-family: Verdana;
-    font-size: 44px;
-    font-weight: lighter;
-}
 p {
     font-family: Verdana, Geneva;
     opacity: 90%;
 }
-/*Styling the navbar*/
-ul {
-    list-style-type: none;
-    display: block;
-    float: right;
-    padding-top: 78px;
+nav {
+    margin: 0;
+    overflow: hidden;
+}
+nav ul {
+    padding-top: 64px;
+    padding-left: 258px;
     padding-right: 272px;
+    margin: 0;
+    display: flex;
 }
-li {
+nav ul li {
     padding: 16px;
-    display: inline;
+    display: inline-block;
+    list-style-type: none;
 }
-h1.logo {
-    float: left;
-    display: inline;
-    padding-left: 272px;
-    padding-top: 56px;
-}
-h5.logo {
-    float: left;
-    display: inline;
-    padding-left: 272px;
-    padding-top: 56px;
-}
-p.SubLogo {
 
-}
-.upperLogo {
-    text-align: left !important;
-}
 a {
     color: #838383;
     text-decoration: none;
 }
+nav ul li:first-child {
+    margin-right: auto;
+}
 a:hover {
     color:black;
 }
-
-/*Styling the about-page*/
 p.AboutText {
     font-size: 14px;
     padding-left: 272px;
     padding-right: 720px;
-
 }
 h3.About {
-    padding-top: 222px;
+    padding-top: 110px;
     font-family: Verdana, Geneva, SansSerif;
     font-weight: 500;
     padding-left: 272px;
     font-size: 20px;
 }
-
 /*Styling the home/Projects Page - name yet to be determined*/
 .Content {
     align-items: center;
