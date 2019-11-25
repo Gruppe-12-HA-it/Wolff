@@ -23,11 +23,13 @@ nav ul {
     display: flex;
 }
 nav ul li {
-    padding: 16px;
+    padding-right: 16px;
     display: inline-block;
     list-style-type: none;
 }
-
+.logoImg {
+    margin-left: 0px;
+}
 a {
     color: #838383;
     text-decoration: none;
@@ -43,29 +45,22 @@ p.AboutText {
     padding-right: 720px;
 }
 h3.About {
-    padding-top: 110px;
+    padding-top: 24px;
     font-family: Verdana, Geneva, SansSerif;
     font-weight: 500;
     font-size: 20px;
 }
 /*Styling the home/Projects Page - name yet to be determined*/
 .Content {
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    margin: 0 auto;
+    padding-right: 28px;
 }
 .Thumbnail {
-    height: 360px;
-    width: 640px;
+    margin: auto;
+    height: 611px;
+    width: 1290px;
 }
-h3.IntroHeader {
-    padding-top: 222px;
-    font-family: Verdana, Geneva, SansSerif;
-    font-weight: 500;
-    font-size: 20px;
-    padding-left: 148px;
-}
+
 .film-container:hover .Thumbnail {
     opacity: 0.3;
 }
@@ -78,11 +73,10 @@ h3.IntroHeader {
 }
 .gallery__item {
     position: relative;
+    margin: 28px;
 }
 .film-container {
-    margin: 5px;
     margin-bottom: 200px;
-    width: 41%;
     height: 200px;
 }
 .Description {
@@ -123,16 +117,16 @@ div.MainContent {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 50%;
+    align-items: center;
 }
 div.ContentText {
-    padding-left: 40px;
-    Padding-right: 360px;
-    width: 560px;
+    padding-left: 240px;
+    width: 640px;
 
 }
 p.FilmDescription {
     font-weight: lighter;
+    font-size: 14px;
     text-justify: auto;
     opacity: 75%;
 }
@@ -147,4 +141,14 @@ h6.FilmSubtitle {
     font-weight: lighter;
     font-size: 24px;
     margin-top: 4px;
+}
+b {
+    font-family: "Open Sans";
+    opacity: 90%;
+    font-size: 95%;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+h5.DescriptionText {
+    font-family: Verdana, Geneva, SansSerif;
 }
